@@ -61,9 +61,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  functions_framework
-  google-cloud-tasks
-  minitest
+  functions_framework (~> 0.1)
+  google-cloud-tasks (~> 1.5)
+  minitest (~> 5.14)
 
 BUNDLED WITH
    2.1.4
