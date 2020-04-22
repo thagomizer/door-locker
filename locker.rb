@@ -49,8 +49,6 @@ FunctionsFramework.http("lock_door") do |request|
     FunctionsFramework.logger.error "Exception creating task"
   end
 
-  puts response.class
-
   FunctionsFramework.logger.info "Created task #{response.name}"
   "Created task #{response.name}"
 end
